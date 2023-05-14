@@ -1,0 +1,62 @@
+span{
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     border-radius: 35px;
+    border: 3px solid #d0d0d0;
+    text-align: center;
+    padding: 5px; 
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: flex;
+     align-items: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+}
+.buttonDiv{ 
+    width: 230px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+span{
+    transition: border-color .6s ease-in-out;
+     
+
+}
+progress {
+    width: 130px;
+    height: 8px;
+    border-radius: 10px; 
+    background-color: #ddd;
+  }
+  
+   progress::-webkit-progress-bar {
+    border-radius: 10px;
+    background-color: #ddd;
+  }
+  
+  progress::-webkit-progress-value {
+    border-radius: 10px;
+    background-color: #0077ff;
+    transition: width .5s ease-in-out;
+  } 
+  button{
+    background-color: #949da6;
+    color: white;
+    padding: 3px;
+    margin-right: 7px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+
+  }
+  .active{
+    background-color: #0077ff;
+  }
+  
